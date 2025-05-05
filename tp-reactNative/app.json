@@ -10,15 +10,19 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#add8e6"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true, 
+      "backgroundColor": "#98ff98",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#98ff98"
       },
       "edgeToEdgeEnabled": true
     },
